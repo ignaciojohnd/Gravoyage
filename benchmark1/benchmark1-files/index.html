@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gravoyage - Game Design Document Page</title>
+    </head>
+    <body>
+        <h1>Gravoyage</h1>
+        <h2>Game Design Document</h2>
+        <p>Lena Girdhar, John Turrigiano, John Dominic Ignacio</p>
+        <br>
+        
+        <h3><b>Introduction</b></h3>
+        <p>This document outlines the concept and design for a game called “Gravoyage.” 
+            This is intended to be a 2D platforming game with some focus on puzzles, 
+            using animated sprites, tiled assets, collision detection and an emphasis 
+            on gravity manipulation.</p>
+        <br>
+        <h3><b>Technology</b></h3>
+        <p>This will be developed with the Wolfie 2D engine and be intended for Windows browsers. </p>
+        <br>
+        
+        <h3><b>Backstory</b></h3>
+        <p>Julliet is a space explorer who is trying to get back to her home planet, 
+            but her ship doesn’t have enough energy to make it all the way. 
+            She has to stop at planets along the way and collect energy crystals that 
+            power her ship in order to continue her journey a little at a time. </p>
+        <br>
+        
+        <h3><b>Objective</b></h3>
+        <p>Julliet has a special suit that allows her to control her own gravity on each planet, 
+            meaning she can change the direction of gravity applying to her. 
+            She is able to ignore the natural gravity on each planet and create her own ideal way 
+            to traverse the terrain and reach the crystals that she needs.</p>
+        <br>
+
+        <h3><b>Gameplay</b></h3>
+        <p>The gameplay functions with usual platforming rules, but at any time you can flip the 
+            direction of gravity, so you could be standing on a wall or ceiling. Some objects may 
+            also be affected by this gravity change, but enemies typically will not be. There are 
+            only a certain number of charges that allows you to change gravity per level. If you 
+            run out of charges and you have not yet reached the goal, you must restart.</p>
+        <br>
+
+        <h3><b>Controls</b></h3>
+        <p>This game will be played using a keyboard:</p>
+        <ul>
+            <li>LEFT-ARROW - Change gravity to left</li>
+            <li>RIGHT-ARROW - Change gravity to right</li>
+            <li>UP-ARROW - Change gravity to up</li>
+            <li>DOWN-ARROW - Change gravity to down</li>
+            <li>W - Jump</li>
+            <li>A - Walk left relative to gravity</li>
+            <li>D - Walk right relative to gravity</li>
+        </ul>
+        <br>
+
+        <h3><b>Graphical User Interface</b></h3>
+        <ul>
+            <li>Start Screen - Simple screen to show Game logo and 
+                creators with an option to start the game.</li>
+            <li>
+                Menu - Starting menu that allows you to decide what to do
+                <ul>
+                    <li>New Game - Will start from level 1 and take you through 
+                        each level as you progress</li>
+                    <li>Level Select - Pick a specific level to play</li>
+                    <li>Controls - Gives controls for how to play the game</li>
+                    <li>About - Gives some story background about the game</li>
+                    <li>Exit - Closes the game</li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+
+        <h3><b>Artwork</b></h3>
+        <ul>
+            <li>
+                Each planet will have a different artstyle and vibe to show progress across the game. 
+                <ul>
+                    <li>Walking left</li>
+                    <li>Walking right</li>
+                    <li>Jumping</li>
+                    <li>Getting hit</li>
+                    <li>Victory</li>
+                </ul>
+            </li>
+            <li>
+                Enemies such as bugs or other alien creatures with animations of
+                <ul>
+                    <li>Flying</li>
+                    <li>Idle</li>
+                    <li>Walking Left</li>
+                    <li>Walking right</li>
+                </ul>
+            </li>
+            <li>Each planet will have a different artstyle and vibe to show progress across the game. 
+                These may be cave, ice, or jungle themed to look unique</li>
+            <li>Objects such as the crystals that serve as the goal, or ones that 
+                may also be affected by gravity.</li>
+        </ul>
+        <br>
+
+        <h3><b>Sound Effects</b></h3>
+        <ul>
+            <li>Walking</li>
+            <li>Jumping</li>
+            <li>Changing gravity direction</li>
+            <li>Getting hit</li>
+            <li>Level clear</li>
+            <li>Level introduce</li>
+        </ul>
+        <br>
+
+        <h3><b>Music</b></h3>
+        <p>Each differently themed level will have appropriate music that matches the look of the level. </p>
+        <br>
+        <br>
+        <br>
+        <h1><b>Mock GUIs</b></h1>
+        <h3><b>Splash Screen</b></h3>
+        <img src="/game_gui_mockup/splash_screen.png" height="50%" width="50%"">
+        <h3><b>Main Menu</b></h3>
+        <img src="/game_gui_mockup/main_menu.png" height="50%" width="50%"">
+        <h3><b>Levels Selection Screen</b></h3>
+        <img src="/game_gui_mockup/level_select.png" height="50%" width="50%"">
+        <h3><b>Controls Screen</b></h3>
+        <img src="/game_gui_mockup/controls_screen.png" height="50%" width="50%"">
+        <h3><b>Help Screen</b></h3>
+        <img src="/game_gui_mockup/help_screen.png" height="50%" width="50%"">
+        <h3><b>In-Game Screen</b></h3>
+        <img src="/game_gui_mockup/in_game_screen.png" height="50%" width="50%"">
+    </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "benchmark1-files",
+    "site": "cse380-gravoyage-benchmark1",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/benchmark1.html"
+      }
+    ]
+  }
+}
